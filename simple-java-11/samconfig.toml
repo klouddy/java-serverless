@@ -1,0 +1,10 @@
+version = 0.1
+[jromero]
+[jromero.deploy]
+[jromero.deploy.parameters]
+stack_name = "simple-java11-small"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1xy1qjq1q67kf"
+s3_prefix = "simple-java11-small"
+region = "us-east-2"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
