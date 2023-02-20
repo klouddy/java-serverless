@@ -1,0 +1,10 @@
+version = 0.1
+[jromero]
+[jromero.deploy]
+[jromero.deploy.parameters]
+stack_name = "simple-node-18-sam"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-kyc91hl207ux"
+s3_prefix = "simple-node-18-sam"
+region = "us-east-2"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
